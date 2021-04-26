@@ -8,7 +8,11 @@ namespace OoP_LAB_7
     {
         public override string Execute(int currentTime)
         {
-            return base.Execute(currentTime)+" South";
+            if ((currentTime < 12 && currentTime > 0) || (currentTime > 15 && currentTime < 25))
+                return base.Execute(currentTime) + " South";
+            else 
+                return base.Execute(currentTime) + " South and cover eyes";
+
         }
     }
 }

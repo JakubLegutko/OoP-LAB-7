@@ -7,7 +7,7 @@ namespace OoP_LAB_7
     abstract class Move
     {
         public virtual string Execute(int currentTime) {
-            return "Move!";
+            return "Move";
         }
     }
 }

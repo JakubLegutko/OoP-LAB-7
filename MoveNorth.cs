@@ -8,7 +8,9 @@ namespace OoP_LAB_7
     {
         public override string Execute(int currentTime)
         {
-            return base.Execute(currentTime)+" North";
+           
+                return base.Execute(currentTime) + " North";
+            
         }
     }
 }
