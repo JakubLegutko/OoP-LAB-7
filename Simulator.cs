@@ -47,6 +47,8 @@ namespace OoP_LAB_7
 
                         movesMade.Add(moveName);
                     }
+                    Console.WriteLine();
+                    movesMade.ForEach(Console.WriteLine);
 
                     using (TextWriter tw = new StreamWriter("CommandHistory.txt"))
                     {
